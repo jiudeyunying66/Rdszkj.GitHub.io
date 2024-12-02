@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Rdszkj-com</title>
+    <link href="https://Rdszkj.GitHub.io/feed.xml" rel="self" />
+    <link href="https://Rdszkj.GitHub.io" />
+    <updated>2024-12-02T18:45:23+08:00</updated>
+    <author>
+        <name>Cenzen徵徵</name>
+    </author>
+    <id>https://Rdszkj.GitHub.io</id>
+
+    <entry>
+        <title>嗨，欢迎来到睿德数字科技！</title>
+        <author>
+            <name>Cenzen徵徵</name>
+        </author>
+        <link href="https://Rdszkj.GitHub.io/haihuan-ying-lai-dao-rui-de-shu-zi-ke-ji.html"/>
+        <id>https://Rdszkj.GitHub.io/haihuan-ying-lai-dao-rui-de-shu-zi-ke-ji.html</id>
+
+        <updated>2024-12-02T18:45:23+08:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+</feed>
