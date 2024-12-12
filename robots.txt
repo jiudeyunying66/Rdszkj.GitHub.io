@@ -1,3 +1,2 @@
 User-agent: *
 Disallow:
-Sitemap: https://jiudeyunying66.github.io/Rdszkj.GitHub.io/sitemap.xml
