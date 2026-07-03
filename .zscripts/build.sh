@@ -10,7 +10,8 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
 # Next.js 项目路径
-NEXTJS_PROJECT_DIR="/home/z/my-project"
+# Next.js 项目路径（使用相对路径，适配不同环境）
+NEXTJS_PROJECT_DIR="${NEXTJS_PROJECT_DIR:-.}"
 
 # 检查 Next.js 项目目录是否存在
 if [ ! -d "$NEXTJS_PROJECT_DIR" ]; then

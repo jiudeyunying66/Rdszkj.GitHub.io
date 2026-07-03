@@ -23,7 +23,7 @@ interface PredictRequest {
   currentPrice: number;
 }
 
-const PYTHON = process.env.PYTHON || '/home/z/.venv/bin/python3';
+const PYTHON = process.env.PYTHON || (process.platform === 'win32' ? 'python' : 'python3');
 const TF_SCRIPT = resolvePath(process.cwd(), 'scripts/predict/predict_tf.py');
 const MLP_SCRIPT = resolvePath(process.cwd(), 'scripts/predict/predict.py');
 

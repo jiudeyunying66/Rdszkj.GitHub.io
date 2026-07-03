@@ -1,6 +1,6 @@
 #!/bin/bash
 # push-service 守护脚本 - 当服务退出时自动重启
-cd /home/z/my-project/mini-services/push-service
+cd "$(dirname "$0")"
 
 while true; do
     echo "[$(date '+%H:%M:%S')] 启动 push-service..."

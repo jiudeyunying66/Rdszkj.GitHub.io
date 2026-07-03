@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# 配置项
-ROOT_DIR="/home/z/my-project/mini-services"
+# 配置项（使用相对路径，适配不同环境）
+ROOT_DIR="${MINI_SERVICES_ROOT:-./mini-services}"
 
 main() {
     echo "🚀 开始批量安装依赖..."

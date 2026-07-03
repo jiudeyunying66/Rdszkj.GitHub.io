@@ -7,7 +7,7 @@ import { ETF_CONFIGS } from '@/lib/etf-config';
 export const dynamic = 'force-dynamic';
 export const maxDuration = 120;
 
-const PYTHON = process.env.PYTHON || '/home/z/.venv/bin/python3';
+const PYTHON = process.env.PYTHON || (process.platform === 'win32' ? 'python' : 'python3');
 const CHARTS_SCRIPT = resolve(process.cwd(), 'scripts/report/charts.py');
 
 async function generateCharts(data: any): Promise<Record<string, string>> {
