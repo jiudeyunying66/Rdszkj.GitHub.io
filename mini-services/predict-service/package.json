@@ -1,0 +1,9 @@
+{
+  "name": "predict-service",
+  "version": "1.0.0",
+  "description": "ARIMA + LSTM (MLP) prediction service for ETF dashboard",
+  "scripts": {
+    "dev": "bun --hot index.ts"
+  },
+  "dependencies": {}
+}

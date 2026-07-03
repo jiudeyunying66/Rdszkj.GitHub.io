@@ -1,0 +1,12 @@
+{
+  "name": "push-service",
+  "version": "1.0.0",
+  "description": "WebSocket push service for ETF dashboard - realtime alerts via SSE/WebSocket",
+  "scripts": {
+    "dev": "bun --hot index.ts"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.7.2",
+    "socket.io": "^4.8.3"
+  }
+}
